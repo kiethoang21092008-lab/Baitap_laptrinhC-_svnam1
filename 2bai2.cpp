@@ -10,4 +10,5 @@ int main() {
 	cout<<fixed<<setprecision(2)<<f<<" K ";
     return 0;
     hihhi
+    hahahs
 }
