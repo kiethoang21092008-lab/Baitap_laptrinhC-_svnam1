@@ -2,14 +2,18 @@
 using namespace std;
 int main()
 {
-	string s;
+	string s,b;
 	getline(cin,s);
-	for(int i=0;i<s.size();i++)
+	getline(cin,b);
+	stringstream n(s);
+	string a;
+	while(n>>a)
 	{
-		if(isupper(s[i]))
+		if(a==b)
 		{
-			s[i]=tolower(s[i]);
-			cout<<s[i]<<"@husc.edu.vn.";
+			continue;
 		}
+		cout<<a<<" ";
 	}
 }
+
